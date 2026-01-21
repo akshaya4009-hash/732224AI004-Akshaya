@@ -1,0 +1,14 @@
+- Create a workflow.
+- First the System activates via the Error Trigger node.
+- An error in another workflow starts this flow.
+- The trigger sends data to three separate paths.
+- Top path targets a messaging service like Mattermost.
+- Middle path targets a platform like Discord.
+- Bottom path leads into an Edit Fields node.
+- Top message node is currently set to deactivated.
+- Middle message node is also set to deactivated.
+- Edit Fields node processes the raw error details.
+- The flow organizes error data for final logging.
+  
+- # Screen shot :
+- <img width="1906" height="1016" alt="image" src="https://github.com/user-attachments/assets/cb34a165-4ab6-4905-800e-46ca5685aae9" />
