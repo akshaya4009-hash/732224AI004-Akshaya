@@ -1,0 +1,14 @@
+- Create a workflow.
+- Start workflow by clicking execute button.
+- ThenTrigger splits into two parallel paths.
+- Top path accesses the customer datastore.
+- It retrieves all people from training.
+- Bottom path activates the code node.
+- Custom script runs to process data.
+- Both paths lead into merge node.
+- Merge node receives two separate inputs.
+- Data streams are combined into one.
+- At the last, output is ready for use.
+
+- # Screen shot :
+- <img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/63db5a11-7f53-418d-8f0b-b36e2d4db9c2" />
