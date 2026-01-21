@@ -1,0 +1,20 @@
+- Create a nathan's workflow.
+- The workflow begins with a Schedule Trigger node.
+- It is set to run automatically at specific time intervals.
+- The trigger activates an HTTP Request node.
+- This node performs a GET request to an internal user URL.
+- Retrieved data is passed into an If logic node.
+- The If node evaluates the incoming data against a condition.
+- If the condition is true, the top path is activated.
+- The true path starts with a JavaScript code node.
+- It then moves to an Edit Fields node to modify data.
+- Finally, it reaches a node to Create a record in a database.
+- If the condition is false, the bottom path is activated.
+- The false path starts with a different JavaScript code node.
+- This script processes the data specifically for error handling.
+- The processed data is then sent to a Discord node.
+- Discord is configured to send a notification about the result.
+- The workflow ends once the record is created or the alert is sent.
+  
+- # Screen shot :
+- <img width="1894" height="1017" alt="image" src="https://github.com/user-attachments/assets/08e9b137-c391-4c55-8818-92f94070facd" />
