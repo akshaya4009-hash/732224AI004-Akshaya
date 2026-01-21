@@ -1,0 +1,14 @@
+- Create a workflow.
+- Workflow begins with the Error Trigger node.
+- It activates when another workflow fails.
+- The trigger captures the error details.
+- Data is passed to the Discord node.
+- Discord node is configured for messaging.
+- The action is set to send a message.
+- It uses the legacy sending method.
+- Status for the send is currently undefined.
+- Notification will appear in a Discord channel.
+- System waits for the next error event.
+  
+- # Screen shot :
+- <img width="1872" height="996" alt="image" src="https://github.com/user-attachments/assets/df23b9db-e6b3-465d-ae32-fedefeb07630" />
