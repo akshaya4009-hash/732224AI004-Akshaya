@@ -1,0 +1,11 @@
+- Create a workflow.
+- Manual Trigger: Click "Execute workflow" to start.
+- Next web Request: System calls a Kaspersky URL.
+- Then Download File: Fetches a PDF document via GET.
+- Binary Data: The file is received as raw data.
+- PDF Node: Passes data to "Extract from File."
+-  Then Text Parsing: Scans the PDF for readable content.
+- At last Final Output: Text is extracted and ready to use.
+
+- # Screen shot :
+- <img width="1885" height="1011" alt="image" src="https://github.com/user-attachments/assets/7be67faa-3ee7-4878-a4b8-92b1ebee9f68" />
