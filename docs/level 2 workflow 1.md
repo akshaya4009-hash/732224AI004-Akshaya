@@ -1,0 +1,19 @@
+- Create a workflow.
+- Click execute button to manually trigger the workflow.
+- The trigger splits the process into two parallel tracks.
+- The top track initiates a search for specific records.
+- This search is performed within an Airtable database integration.
+- The bottom track simultaneously starts a web-based data request.
+- It sends an HTTP GET request to the restcountries.co website.
+- Both paths send their retrieved data into the Merge node.
+- The Merge node combines the two datasets into one unified list.
+- The combined output then flows out into three distinct directions.
+- The first branch sends the data to a JavaScript code node.
+- This code node allows for custom script-based data manipulation.
+- The second branch is connected to a deactivated Airtable node.
+- The third branch directs the data into a Filter node.
+- The Filter node checks each item against specific set conditions.
+- Items that pass the filter move toward an "Edit Fields" step.
+  
+- # Screen shot :
+- <img width="1867" height="1021" alt="image" src="https://github.com/user-attachments/assets/fed54096-dbd7-4d50-84ed-4566e5fe4cbc" />
