@@ -1,0 +1,14 @@
+- Create a workflow.
+- Manual start by clicking execute button.
+- Workflow triggers the JavaScript code node.
+- Custom script processes the initial data.
+- Output moves to the loop over items node.
+- Loop node begins iterating through list.
+- Each item is sent to the RSS read node.
+- RSS node fetches feed data for that item.
+- Flow returns to loop node after reading.
+- Process repeats until all items are done.
+- Final output is generated once loop finishes
+  
+- # Screen shot :
+- <img width="1872" height="1021" alt="image" src="https://github.com/user-attachments/assets/7b096d1e-3c07-4821-9eff-f1b8b94086eb" />
