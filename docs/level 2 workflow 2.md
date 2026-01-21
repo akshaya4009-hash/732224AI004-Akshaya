@@ -1,0 +1,23 @@
+- Create a workflow.
+- The process is initiated by a manual "Execute workflow" trigger.
+- The workflow splits into two parallel data-gathering branches.
+- The top branch performs an HTTP Request to an external URL.
+- The bottom branch searches for existing records in a database.
+- Both data streams meet at a Merge node to be combined.
+- The combined data is passed into a Sort node for organization.
+- From the Sort node, the data is sent to two different logic steps.
+- The first logic step is an If node that evaluates a condition.
+- If the condition is true, data is converted into a JSON file.
+- This file is then sent as a message via Gmail (M icon).
+- Finally, a notification is sent to a Discord channel.
+- The second logic step after the Sort node is a Filter.
+- Data that passes the filter moves into a "Loop Over Items" node.
+- The loop processes each filtered item one by one.
+- For every item in the loop, an "Edit Fields" action is taken.
+- A "Date & Time" node then stamps the current time on the item.
+- The item data is then converted into a CSV file format.
+- Once the loop finishes, all items are processed and finalized.
+- The workflow tracks the successful completion of both main paths.The final result is a mix of database updates and external notifications.
+
+- # Screen shot :
+- <img width="1902" height="1043" alt="image" src="https://github.com/user-attachments/assets/286744bb-d632-4463-b308-8fe1bb4babfe" />
