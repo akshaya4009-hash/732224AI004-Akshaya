@@ -1,0 +1,14 @@
+- Create a workflow.
+- Next Manual start by clicking execute.
+- Then HTTP request to poetrydb.org.
+- Fetches poetry data via GET.
+- Passes data to conversion node.
+- Converts raw data to JSON.
+- Prepares file for local storage.
+- Writes JSON file to disk.
+- Triggers the disk read node.
+- Pulls the saved file back.
+- Final file is ready locally.
+
+- # Sreen shot :
+- <img width="1906" height="1025" alt="image" src="https://github.com/user-attachments/assets/249ee03c-3c65-4403-9f71-9301624dcdb3" />
