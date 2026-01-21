@@ -1,0 +1,16 @@
+- Create a workflow.
+- Manual Start: Click the "Execute" button.
+- Auto Start: Runs on a set schedule.
+- Fetch Data: Pulls all customer records.
+- Source: Uses the "n8n training" datastore.
+- Add Timestamp: Records current date and time.
+- Check Condition: Logic node evaluates the data.
+- Filter Path: Directs to "True" or "False."
+- True Route: Continues if conditions are met.
+- Pause Step: The "Wait" node delays flow.
+- Time Delay: Holds process for set duration.
+- Final Action: Moves to "Edit" the record.
+- Update: Saves changes back to database.
+
+- # Screen shot :
+- <img width="1905" height="1032" alt="image" src="https://github.com/user-attachments/assets/1767499d-6ffd-47fc-97d2-fb1b158db17b" />
